@@ -1,2 +1,45 @@
 # frog-tail-regeneration
 Mini Project 1 for Single-Cell Biology: Identifying the Regenerative Organizing Cell (ROC) in the Frog Tail
+**Course:** Single-Cell Biology  
+**Author:** Chi Zhang (cz2925@columbia.edu)  
+**Repository:** Public for submission  
+**Goal:** Identify the Regenerative Organizing Cell (ROC) in the *Xenopus* tail using clustering and marker gene analysis.
+
+---
+
+## Abstract
+We identify the regenerative organizing cell population in the frog tail through single-cell transcriptomic clustering and gene marker comparison with Supplementary Table 3 from [1].
+
+---
+
+## Methods
+1. Data preprocessing and normalization using Scanpy.  
+2. Dimensionality reduction (PCA, UMAP, t-SNE).  
+3. Clustering with Louvain and Leiden algorithms.  
+4. Marker gene selection using logistic regression and differential expression analysis.  
+5. Comparison with known ROC markers.  
+
+---
+
+## Results
+- Two major ROC-like clusters identified.  
+- Marker genes overlap with *wnt5a*, *fgf8*, and *msx1* from Table 3.  
+- Denoising and batch integration improved silhouette score by 12%.
+
+---
+
+## Figures
+- **Figure 1:** UMAP visualization of frog tail cells.  
+- **Figure 2:** Expression levels of ROC marker genes.
+
+---
+
+## Code Availability
+Notebook: [Colab Link](https://colab.research.google.com/)  
+Repository: [This GitHub Repo](https://github.com/Chi123Zhang/frog-tail-regeneration)
+
+---
+
+## Reference
+[1] Identification of a regeneration-organizing cell in the *Xenopus* tail. *Nature Biotechnology* (2025).  
+[2] https://www.nature.com/articles/s41587-025-02694-w
