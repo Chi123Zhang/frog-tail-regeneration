@@ -25,21 +25,33 @@ This repo reproduces a minimal single-cell RNA-seq pipeline on *Xenopus* tail:
 ---
 
 ## Figures
-- `fig1_clustering.png`: UMAP colored by Leiden/Louvain
-- `fig2_markers.png`: UMAP of top markers in the ROC-like cluster
+- **Fig 1 — Clustering:** `fig1_clustering.png` — UMAP colored by Leiden/Louvain  
+- **Fig 2 — Markers:** `fig2_markers.png` — UMAP of top markers in the ROC-like cluster  
+
+---
 
 ## Data
-- Input: `cleaned_processed_frogtail.h5ad` (path ...)
-- Output: `Frogtail_processed_results.h5ad` (optional)
+- **Input:** `cleaned_processed_frogtail.h5ad` (processed single-cell data from starter kit)  
+- **Output:** `Frogtail_processed_results.h5ad` (optional — includes clustering and marker tables)  
+
+---
 
 ## Code Availability
-- GitHub: this repo  
-- Colab (one-click run): 
+- **GitHub repository:** [this repo](https://github.com/Chi123Zhang/frog-tail-regeneration)  
+- **Colab (one-click run):** [Open in Colab](https://colab.research.google.com/drive/1n-zwzKfbmK6F8lzEAfzpKAyjfyKSeYqH#scrollTo=JFrM4u5k9-8m)  
 
-## Repro
+---
+
+## Reproducibility
+To reproduce the full analysis:
+
 ```bash
+# 1. Install dependencies
 pip install -r requirements.txt
-open the notebook under notebooks/ and Run All
+
+# 2. Open the notebook and run all cells
+cd notebooks/
+jupyter notebook Frog_and_tail_ChiZhang.ipynb
 ```
 
 
