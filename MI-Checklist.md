@@ -26,7 +26,6 @@ by **Chi Zhang**, Columbia University, 2025.
 |--------------|------------|-------|
 | Data origin and format described. | Yes | Public dataset from *Science* (2019) and EBI repository. |
 | Transformations of the data before model application are described. | Yes | Log normalization, scaling, HVG selection, PCA (50 PCs). |
-| Independence between training and test sets proven. | N/A | Unsupervised clustering, no explicit split. |
 | Details of evaluated models provided. | Yes | Louvain vs Leiden clustering compared. |
 | Input data type (structured/unstructured). | Yes Structured | Gene-expression matrix (cells × genes). |
 
@@ -58,7 +57,7 @@ by **Chi Zhang**, Columbia University, 2025.
 
 | Tier | Description | Selected | Notes |
 |------|--------------|-----------|-------|
-| **Tier 1** | Complete sharing of the code | Yes | Full code and notebook available at [https://github.com/YOUR_USERNAME/Frog-Regeneration-Project](https://github.com/YOUR_USERNAME/Frog-Regeneration-Project) |
+| **Tier 1** | Complete sharing of the code | Yes | Full code and notebook available at [https://github.com/Chi123Zhang/frog-tail-regeneration/blob/main/Frog_and_tail_ChiZhang.ipynb] |
 | **Tier 2** | Third-party evaluation only | ☐ | — |
 | **Tier 3** | Virtual-machine binary | ☐ | — |
 | **Tier 4** | No sharing | ☐ | — |
