@@ -57,8 +57,9 @@ jupyter notebook Frog_and_tail_ChiZhang.ipynb
 
 ## 📚 Reference Materials
 
-1. **Main Paper [1]:** *Identification of a regeneration-organizing cell in the Xenopus tail*  
-   [Nature Biotechnology (2025)](https://www.nature.com/articles/s41587-025-02694-w)
+1. **Main Paper [1]:** Aztekin, C., Hiscock, T. W., Marioni, J. C., Gurdon, J. B., Simons, B. D., & Jullien, J. (2019).  
+**Identification of a regeneration-organizing cell in the *Xenopus* tail.**  
+*Science, 364*(6441), 653–658. [https://doi.org/10.1126/science.aav9996](https://doi.org/10.1126/science.aav9996)
 
 2. **Supplementary Material:** [Download Link](https://www.nature.com/articles/s41587-025-02694-w#Sec22)
 
