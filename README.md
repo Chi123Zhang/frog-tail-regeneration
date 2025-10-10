@@ -38,7 +38,8 @@ This repo reproduces a minimal single-cell RNA-seq pipeline on *Xenopus* tail:
 
 ## Code Availability
 - **GitHub repository:** [this repo](https://github.com/Chi123Zhang/frog-tail-regeneration)  
-- **Colab (one-click run):** [Open in Colab](https://colab.research.google.com/drive/1n-zwzKfbmK6F8lzEAfzpKAyjfyKSeYqH#scrollTo=JFrM4u5k9-8m)  
+- **Colab (one-click run):** https://colab.research.google.com/github/Chi123Zhang/frog-tail-regeneration/blob/main/Frog_and_tail_ChiZhang.ipynb
+  
 
 ---
 
