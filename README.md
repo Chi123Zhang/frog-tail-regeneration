@@ -12,36 +12,36 @@ We identify the regenerative organizing cell population in the frog tail through
 
 ---
 
-## Methods
-1. Data preprocessing and normalization using Scanpy.  
-2. Dimensionality reduction (PCA, UMAP, t-SNE).  
-3. Clustering with Louvain and Leiden algorithms.  
-4. Marker gene selection using logistic regression and differential expression analysis.  
-5. Comparison with known ROC markers.  
-
----
-
-## Results
-- Two major ROC-like clusters identified.  
-- Marker genes overlap with *wnt5a*, *fgf8*, and *msx1* from Table 3.  
-- Denoising and batch integration improved silhouette score by 12%.
+## Overview
+This repo reproduces a minimal single-cell RNA-seq pipeline on *Xenopus* tail:
+- Preprocessing (normalize/log1p/HVG)
+- PCA + UMAP
+- Clustering (Louvain, Leiden)
+- Marker selection (t-test, logistic regression)
+- Quality (ARI, silhouette)
+- Denoising (PCA truncation, regress-out + neighborhood smoothing)
+- **Comparison to Supplementary Table 3 (ligands/receptors & ROC markers)**
 
 ---
 
 ## Figures
-- **Figure 1:** UMAP visualization of frog tail cells.  
-- **Figure 2:** Expression levels of ROC marker genes.
+- `fig1_clustering.png`: UMAP colored by Leiden/Louvain
+- `fig2_markers.png`: UMAP of top markers in the ROC-like cluster
 
----
+## Data
+- Input: `cleaned_processed_frogtail.h5ad` (path ...)
+- Output: `Frogtail_processed_results.h5ad` (optional)
 
 ## Code Availability
-Notebook: [Colab Link](https://colab.research.google.com/)  
-Repository: [This GitHub Repo](https://github.com/Chi123Zhang/frog-tail-regeneration)
+- GitHub: this repo  
+- Colab (one-click run): 
 
----
+## Repro
+```bash
+pip install -r requirements.txt
+open the notebook under notebooks/ and Run All
+```
 
-## Reference
----
 
 ## 📚 Reference Materials
 
